@@ -5,6 +5,7 @@
 
 You Can Access Our Page Using Below Link :
 	https://jagantripuragiri.github.io/E-LearningPortal/
+<hr>	
 About the Project
 
 This project is a mini-project created as part of my college curriculum. It is an e-learning portal designed to help students access educational resources and enhance their learning experience. The portal integrates features developed using some open-source code, adhering to respective licenses.
