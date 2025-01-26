@@ -24,9 +24,12 @@ Acknowledgments
 
 This project is built with inspiration and code contributions from various open-source creators. 
 Special thanks to:
-
+	
+	•Chat-GPT 
+ 	•Font Awesome 
+  	•Youtube
 	•roshan9419 (Roshan Kumar)
- 	•Chat-GPT 
+ 	
  
 
 License
@@ -36,5 +39,6 @@ This project is licensed under the MIT license. See the LICENSE file for details
 Contact
 
 For queries or feedback, feel free to contact:
-	•	Name: Jagan Tripuragiri
-	•	Email: tripuragirijagan27@gmail.com
+
+	•Name: Jagan Tripuragiri
+	•Email: tripuragirijagan27@gmail.com
