@@ -73,13 +73,7 @@ function scrollAppear() {
   
   
   
-  function startquiz() {
-    document.getElementById('title').style = 'display: none;'; 
   
-    document.getElementById('panel').style = 'display: inline-flex;'; 
-    document.getElementById('left').style = 'display: block;'; 
-    document.getElementById('right').style = 'display: block;'; 
-  }
   function searchdisplay() {
     document.getElementById('searchpanel').style.display="block";
   }
