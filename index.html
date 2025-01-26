@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>E-Learning Portal MVGRCE</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="https://kit.fontawesome.com/0d390d4325.js" crossorigin="anonymous"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><i class="fa-solid fa-chalkboard-user fa-xl" style="color: #dfcd27; "></i></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#course1">Courses</a></li>
+                <li><a href="#team_section">Team</a></li>
+                <li><a href="#makeitfull">Reviews</a></li>
+                
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><i class="fa-solid fa-magnifying-glass" style="color: #dfcd27;" onclick=slide()></i></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Welcome to E-Learning Portal</p>
+				<h5>Your one-stop destination for learning, growing, and achieving your dreams!</h5>
+				
+               
+			</div>
+            
+			
+		</div>
+        <div class="cbox"><a class="get-started" style="margin-top: 125px;"  href="login.html">Start Your Journey </a>
+        </div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>
+			<ul>
+				
+				<li><a href="#course1">Courses</a></li>
+				<li><a href="#team_section">Team</a></li>
+				
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+ 
+	<div class="course" id = "#course1" >
+        <center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Recommend Courses For You</p></center>
+
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/jee.html"><i class="fa-solid fa-soli fa-book" style="color: #dfcd27; "></i>JEE Preparation</a></div>
+		<div class="det"><a href="subjects/gate.html"><i class="fa-solid fa-soli fa-file-circle-check" style="color: #dfc827;"></i>GATE Preparation</a></div>
+		<div class="det"><a href="subjects/jee.html#sample_papers"><i class="fa-regular fa-soli fa-newspaper" style="color: #dfcd27;"></i>Sample Papers</a></div>
+		
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="subjects/computer_courses.html"><i class="fa-solid fa-soli fa-desktop" style="color: #dfcd27;" ></i>Computer Courses</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#data"><i class="fa-solid fa-soli fa-network-wired " style="color: #dfcd27;"></i>Data Structures</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#algo"><i class="fa-regular fa-soli fa-window-restore" style="color: #dfcd27;"></i>Algorithm</a></div>
+		<div class="det"><a href="subjects/computer_courses.html"><i class="fa-solid fa-soli fa-database" style="color: #dfcd27;" ></i>DataBases</a></div>
+		</div>
+	</div>
+
+	
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/roshan1.jpeg"></center>
+				<center><div class="card-title">Pallavi</div>
+				<div id="detail">
+					<p>"I’m a  computer science enthusiast who is currently pursuing a degree in Computer Science and Information Technology at Maharaj Vijayaram Gajapathi Raj College of Engineering (MVGR). Known for their curiosity and analytical mindset, I’m actively seeks opportunities to deepen their understanding of programming and emerging technologies."
+                    </p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/jagantripuragiri/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/roshan2.jpeg"></center>
+				<center><div class="card-title">Jagan Tripuragiri</div>
+				<div id="detail">
+					<p>“Aiming to make an impact in the ever-evolving tech industry, pursuing a Computer Science and Information Technology degree at Maharaj Vijayaram Gajapathi Raj College of Engineering (MVGR).  thrives on exploring innovative ideas, building efficient solutions, and working on projects that reflect their passion for programming and technology“</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/jagantripuragiri/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+            <div class="card">
+				<center><img src="images/creator/roshan2.jpeg"></center>
+				<center><div class="card-title">Sri Mani</div>
+				<div id="detail">
+					<p>“a dedicated student at Maharaj Vijayaram Gajapathi Raj College of Engineering (MVGR), is passionate about coding and leveraging technology to solve complex problems. Enrolled in the Computer Science and Information Technology focused on creating innovative solutions that merge creativity with technical expertise.
+
+                        “</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/jagantripuragiri/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+	<a href="#review_section"><i class="fa-solid fa-square-caret-down fa-xl" style="color: #dfcd27;"></i></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Students Say About Us?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist1.jpg"><p>Aravind Korada</p>
+				<h6>Java</h6>
+				<div class="rating"><i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+				</div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					I did Java Fundamenetal course . It was a great experience. The brain teasers and assignments, actually the whole lot of content was really good. Some problems were challenging yet interesting. Was explained very well where ever I stuck...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist2.jpg"><p>Ram mehar</p>
+				<h6>C/C++</h6>
+				<div class="rating"><i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+				</div>
+				</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					When I was watching "Dear Zindagi", I could relate Sharukh Khan to Arnav Bhaiya. The way Sharukh Khan was giving life lessons to Alia Bhatt, in the same way Anjana madam will give coding life lessons which will guide you throughout your code life...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist3.jpg"><p>Harish</p>
+				<h6>JavaScript</h6>
+				<div class="rating"><i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+				</div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					it was an amazing experience for me. I belong to electronics department and had a little experience in coding but I think it has helped me think things through in a much more analytical manner. Coding is important no matter which branch you are in. It gives you a better understanding about how to approach a problem...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist4.jpg"><p>Deekshit</p>
+				<h6>Python</h6>
+				<div class="rating"><i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+					<i class="fa-solid fa-star" style="color: #dfcd27;"></i>
+				</div> 
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					This was my first complete course at coding blocks. I attended the Python course in Winter 2020 and loved it which made me join the full course. Shubham bhaiya and Ayush Bhaiya(TA) have good knowledge about the field and were very helpful in making us understand the concepts. I would certainly recommend this to anyone...
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				
+				
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2025 Created By Pallavi J, Jagan T, Srimani  All Rights Reserved.</p>
+				<br><p><img src="images/icon/location.png"> Maharaj Vijayaram Gajapathi Raj Collage Of Engg.<br>Vizianagaram, Andhra Pradesh 535005</p><br>
+				<p><img src="images/icon/phone.png"> +91-1234-567-890<br><img src="images/icon/mail.png">&nbsp; E-learningportal@mvgrce.edu.in</p>
+			</div>
+			
+		</div>
+	</footer>
+
+</body>
+</html>
