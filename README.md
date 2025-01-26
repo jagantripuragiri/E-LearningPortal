@@ -22,9 +22,11 @@ Technologies Used
 
 Acknowledgments
 
-This project is built with inspiration and code contributions from various open-source creators. Special thanks to:
-	•	roshan9419 (Roshan Kumar)
- 	•	Chat-GPT 
+This project is built with inspiration and code contributions from various open-source creators. 
+Special thanks to:
+
+	•roshan9419 (Roshan Kumar)
+ 	•Chat-GPT 
  
 
 License
