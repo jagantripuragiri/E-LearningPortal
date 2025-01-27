@@ -295,7 +295,6 @@ body {
 	background: #000;
 	color: #000;
 	text-align: left;
-	border-top-right-radius: 100px;
 	transform: translateY(-19px);
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 	overflow: hidden;
