@@ -520,7 +520,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #dfcd27);
+	background: linear-gradient(to right, #fed56bdd, #dfcd27);
 	margin: 2px;
 }
 footer .newsletter-form {
