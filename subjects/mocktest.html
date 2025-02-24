@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mock Test</title>
+    <link rel="stylesheet" href="mocktest.css" />
+
+    <script
+      src="https://kit.fontawesome.com/0d390d4325.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link to external CSS file -->
+  </head>
+  <body>
+    <div class="mainb">
+      <!-- Navigation Bar -->
+
+      <div class="navbar">
+        <div class="nav-left">
+          <a href="../index.html" class="logo-link">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <span>MVGRCE E-learning</span>
+          </a>
+        </div>
+      </div>
+      <!-- Mock Test Content -->
+      <div class="containerx">
+        <div class="container">
+          <h2>Mock Test</h2>
+          <label for="testType">Select Test Type:</label>
+          <select id="testType">
+            <option value="jee">JEE</option>
+            <option value="gate">GATE</option>
+            <option value="cs">Computer Science</option>
+          </select>
+          <button onclick="startTest()">Start Test</button>
+
+          <div id="questionsContainer" style="display: none">
+            <h3>Answer the following questions:</h3>
+            <form id="quizForm"></form>
+            <button type="button" onclick="submitTest()">Submit</button>
+          </div>
+
+          <div id="result"></div>
+        </div>
+        <div class="reattempt-container">
+          <a href="mocktest.html">Click Here To Re Attempt</a>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                
+                
+                <div class="logo"></div>
+                <div class="social-media">
+                    <a href="#"><img src="images/icon\fb.png"></a>
+                    <a href="#"><img src="images/icon\insta.png"></a>
+                    <a href="#"><img src="images/icon\tt.png"></a>
+                    <a href="#"><img src="images/icon\ytube.png"></a>
+                    <a href="#"><img src="images/icon\linkedin.png"></a>
+                </div><br><br>
+                <p class="rights-text">Copyright © 2025 Created By Pallavi J, Jagan T, Srimani  All Rights Reserved.</p>
+                <br><p><img src="images/icon/location.png"> Maharaj Vijayaram Gajapathi Raj Collage Of Engg.<br>Vizianagaram, Andhra Pradesh 535005</p><br>
+                <p><img src="images/icon/phone.png"> +91-1234-567-890<br><img src="images/icon/mail.png">&nbsp; E-learningportal@mvgrce.edu.in</p>
+            </div>
+            
+        </div>
+    </footer>
+    </div>
+    <!-- Footer -->
+
+    <script src="questions.js"></script>
+
+    <script src="mocktest.js"></script>
+  </body>
+</html>
