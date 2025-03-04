@@ -186,5 +186,59 @@ const questions = {
             "options": ["Refers to the function", "Refers to the global object", "Refers to the current object", "Refers to the previous object"],
             "answer": "Refers to the current object"
         }
+    ],
+
+    python: [
+        {
+            "q": "Which of the following is used to create a list in Python?",
+            "options": ["[]", "{}", "()", "<>"],
+            "answer": "[]"
+        },
+        {
+            "q": "What is the output of the following code? `print(type(5))`",
+            "options": ["int", "float", "str", "NoneType"],
+            "answer": "int"
+        },
+        {
+            "q": "Which of the following is the correct syntax to define a function in Python?",
+            "options": ["def function_name:", "function function_name:", "def function_name()", "function() function_name:"],
+            "answer": "def function_name:"
+        },
+        {
+            "q": "What does the 'len()' function do in Python?",
+            "options": ["Returns the length of an object", "Returns a list of items", "Returns a sorted object", "Returns the last item in the object"],
+            "answer": "Returns the length of an object"
+        },
+        {
+            "q": "Which of the following data types is immutable in Python?",
+            "options": ["List", "Set", "Dictionary", "Tuple"],
+            "answer": "Tuple"
+        },
+        {
+            "q": "Which of the following methods can be used to add an element to a list in Python?",
+            "options": [".add()", ".append()", ".insert()", ".push()"],
+            "answer": ".append()"
+        },
+        {
+            "q": "What will be the output of the following Python code? `x = 'hello'; print(x[1])`",
+            "options": ["h", "e", "l", "o"],
+            "answer": "e"
+        },
+        {
+            "q": "What is the correct way to import a module in Python?",
+            "options": ["import module_name", "include module_name", "require module_name", "load module_name"],
+            "answer": "import module_name"
+        },
+        {
+            "q": "Which of the following statements is used to raise an exception in Python?",
+            "options": ["throw", "raise", "except", "catch"],
+            "answer": "raise"
+        },
+        {
+            "q": "What is the purpose of the 'self' keyword in Python?",
+            "options": ["Refers to the current object", "Refers to a function", "Refers to the parent class", "Refers to a global variable"],
+            "answer": "Refers to the current object"
+        }
     ]
+    
 };
